@@ -53,10 +53,10 @@ export default {
 <style scoped>
 .hamburger_menu .line {
   @apply relative;
-  transition: all 500ms;
-  width: 2rem;
+  @apply w-8;
+  @apply my-1;
   height: 0.4rem;
-  margin: 0.3rem 0;
+  transition: all 500ms;
 }
 .hamburger_menu .line:first-of-type {
   @apply top-0;
@@ -69,7 +69,7 @@ export default {
   transform: rotate(45deg);
 }
 .hamburger_menu .line.bottom_active {
-  bottom: 11px;
+  bottom: 10px;
   transform: rotate(-45deg);
 }
 </style>

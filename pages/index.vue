@@ -2,6 +2,7 @@
   <div>
     <Hero />
     <Navbar />
+    <Projects />
   </div>
 </template>
 
@@ -9,7 +10,8 @@
 export default {
   components: {
     Hero: () => import('~/components/Hero'),
-    Navbar: () => import('~/components/Navbar')
+    Navbar: () => import('~/components/Navbar'),
+    Projects: () => import('~/components/Projects')
   }
 }
 </script>
