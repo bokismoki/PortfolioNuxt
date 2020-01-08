@@ -1,13 +1,15 @@
 <template>
   <div>
     <Hero />
+    <Navbar />
   </div>
 </template>
 
 <script>
 export default {
   components: {
-    Hero: () => import ('~/components/Hero')
+    Hero: () => import('~/components/Hero'),
+    Navbar: () => import('~/components/Navbar')
   }
 }
 </script>
