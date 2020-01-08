@@ -1,9 +1,15 @@
 <template>
-  <div></div>
+  <div>
+    <Hero />
+  </div>
 </template>
 
 <script>
-export default {}
+export default {
+  components: {
+    Hero: () => import ('~/components/Hero')
+  }
+}
 </script>
 
 <style>

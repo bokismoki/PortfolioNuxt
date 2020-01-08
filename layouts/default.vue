@@ -1,11 +1,16 @@
 <template>
   <div>
-    <nuxt />
+    <main>
+      <nuxt />
+    </main>
   </div>
 </template>
 
 <style>
 html {
+  scroll-behavior: smooth;
+}
+body {
   font-family: 'Raleway', sans-serif;
 }
 
