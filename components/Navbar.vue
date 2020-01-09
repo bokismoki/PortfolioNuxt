@@ -4,26 +4,26 @@
       <ul class="mt-10 w-full sm:mt-0 sm:flex sm:items-center" :class="{'hidden': !isMenuOpen}">
         <li class="mb-3 sm:mb-0">
           <a
-            class="text-white text-lg block p-2 text-main-pink sm:text-sm hover:text-main-pink focus:text-main-pink"
-            href="#"
+            class="text-white text-lg block p-2 text-main-pink sm:text-sm hover:text-main-pink focus:text-main-pink transition-color transition-500"
+            href="#hero"
           >HOME</a>
         </li>
         <li class="mb-3 sm:mb-0">
           <a
-            class="text-white text-lg block p-2 hover:text-main-pink sm:text-sm focus:text-main-pink"
-            href="#"
+            class="text-white text-lg block p-2 hover:text-main-pink sm:text-sm focus:text-main-pink transition-color transition-500"
+            href="#projects"
           >PORTFOLIO</a>
         </li>
         <li class="mb-3 sm:mb-0">
           <a
-            class="text-white text-lg block p-2 hover:text-main-pink sm:text-sm focus:text-main-pink"
-            href="#"
+            class="text-white text-lg block p-2 hover:text-main-pink sm:text-sm focus:text-main-pink transition-color transition-500"
+            href="#about"
           >ABOUT</a>
         </li>
         <li class="mb-3 sm:mb-0">
           <a
-            class="text-white text-lg block p-2 hover:text-main-pink sm:text-sm focus:text-main-pink"
-            href="#"
+            class="text-white text-lg block p-2 hover:text-main-pink sm:text-sm focus:text-main-pink transition-color transition-500"
+            href="#contact"
           >CONTACT</a>
         </li>
       </ul>

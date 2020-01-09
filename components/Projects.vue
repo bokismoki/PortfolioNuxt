@@ -1,5 +1,5 @@
 <template>
-  <section class="projects container mx-auto">
+  <section class="projects container mx-auto" id="projects">
     <div class="py-20">
       <h1 class="relative text-center text-3xl font-semibold opacity-75">PROJECTS</h1>
       <div class="mt-20 lg:flex lg:flex-wrap xl:w-5/6 xl:mx-auto">
@@ -31,10 +31,22 @@ export default {
           description:
             "Recreated Skullcandy's pages, backend for User & Cart, Stripe payment service.",
           technologies: [
-            require('~/assets/img/nuxt.svg'),
-            require('~/assets/img/tailwindcss.svg'),
-            require('~/assets/img/node.svg'),
-            require('~/assets/img/mongodb.svg')
+            {
+              src: require('~/assets/img/nuxt.svg'),
+              alt: 'Nuxt Logo'
+            },
+            {
+              src: require('~/assets/img/tailwindcss.svg'),
+              alt: 'TailwindCSS Logo'
+            },
+            {
+              src: require('~/assets/img/node.svg'),
+              alt: 'Node Logo'
+            },
+            {
+              src: require('~/assets/img/mongodb.svg'),
+              alt: 'MongoDB Logo'
+            }
           ],
           background: require('~/assets/img/skullcandy_bg.jpg'),
           liveURL: 'https://skullcandy.herokuapp.com/',
@@ -46,10 +58,22 @@ export default {
           description:
             "Recreated Skullcandy's pages, backend for User & Cart, Stripe payment service.",
           technologies: [
-            require('~/assets/img/nuxt.svg'),
-            require('~/assets/img/tailwindcss.svg'),
-            require('~/assets/img/node.svg'),
-            require('~/assets/img/mongodb.svg')
+            {
+              src: require('~/assets/img/nuxt.svg'),
+              alt: 'Nuxt Logo'
+            },
+            {
+              src: require('~/assets/img/tailwindcss.svg'),
+              alt: 'TailwindCSS Logo'
+            },
+            {
+              src: require('~/assets/img/node.svg'),
+              alt: 'Node Logo'
+            },
+            {
+              src: require('~/assets/img/mongodb.svg'),
+              alt: 'MongoDB Logo'
+            }
           ],
           background: require('~/assets/img/skullcandy_bg.jpg'),
           liveURL: 'https://skullcandy.herokuapp.com/',
@@ -61,10 +85,22 @@ export default {
           description:
             "Recreated Skullcandy's pages, backend for User & Cart, Stripe payment service.",
           technologies: [
-            require('~/assets/img/nuxt.svg'),
-            require('~/assets/img/tailwindcss.svg'),
-            require('~/assets/img/node.svg'),
-            require('~/assets/img/mongodb.svg')
+            {
+              src: require('~/assets/img/nuxt.svg'),
+              alt: 'Nuxt Logo'
+            },
+            {
+              src: require('~/assets/img/tailwindcss.svg'),
+              alt: 'TailwindCSS Logo'
+            },
+            {
+              src: require('~/assets/img/node.svg'),
+              alt: 'Node Logo'
+            },
+            {
+              src: require('~/assets/img/mongodb.svg'),
+              alt: 'MongoDB Logo'
+            }
           ],
           background: require('~/assets/img/skullcandy_bg.jpg'),
           liveURL: 'https://skullcandy.herokuapp.com/',
@@ -76,10 +112,22 @@ export default {
           description:
             "Recreated Skullcandy's pages, backend for User & Cart, Stripe payment service.",
           technologies: [
-            require('~/assets/img/nuxt.svg'),
-            require('~/assets/img/tailwindcss.svg'),
-            require('~/assets/img/node.svg'),
-            require('~/assets/img/mongodb.svg')
+            {
+              src: require('~/assets/img/nuxt.svg'),
+              alt: 'Nuxt Logo'
+            },
+            {
+              src: require('~/assets/img/tailwindcss.svg'),
+              alt: 'TailwindCSS Logo'
+            },
+            {
+              src: require('~/assets/img/node.svg'),
+              alt: 'Node Logo'
+            },
+            {
+              src: require('~/assets/img/mongodb.svg'),
+              alt: 'MongoDB Logo'
+            }
           ],
           background: require('~/assets/img/skullcandy_bg.jpg'),
           liveURL: 'https://skullcandy.herokuapp.com/',

@@ -1,5 +1,5 @@
 <template>
-  <section class="about">
+  <section class="about" id="about">
     <div class="py-20 container mx-auto">
       <h1 class="relative text-center text-3xl font-semibold opacity-75">ABOUT</h1>
       <div class="mt-20 hex_grid md:w-4/6 md:mx-auto lg:w-full">
@@ -62,24 +62,59 @@
           <p
             class="w-5/6 mx-auto mt-3 opacity-75"
           >I'm a 20 year-old Web Developer from Serbia. I have serious passion for creating web sites using the modern technologies available to us today.</p>
-          <a href="#" class="text-main-pink cursor-pointer">Contact me if you want to work together.</a>
+          <a
+            href="#contact"
+            class="text-main-pink cursor-pointer"
+          >Contact me if you want to work together.</a>
         </div>
         <div class="mt-10">
           <h1 class="text-2xl font-semibold opacity-75">Technologies & Tools I use</h1>
           <div class="mt-10 flex justify-center flex-wrap w-4/6 mx-auto">
-            <img class="w-10 h-10 m-3 lg:w-16 lg:h-16" src="~/assets/img/html5.svg" alt="HTML5 Logo" />
+            <img
+              class="w-10 h-10 m-3 lg:w-16 lg:h-16"
+              src="~/assets/img/html5.svg"
+              alt="HTML5 Logo"
+            />
             <img class="w-10 h-10 m-3 lg:w-16 lg:h-16" src="~/assets/img/css3.svg" alt="CSS3 Logo" />
             <img class="w-10 h-10 m-3 lg:w-16 lg:h-16" src="~/assets/img/scss.svg" alt="SCSS Logo" />
-            <img class="w-10 h-10 m-3 lg:w-16 lg:h-16" src="~/assets/img/tailwindcss.svg" alt="TailwindCSS Logo" />
-            <img class="w-10 h-10 m-3 lg:w-16 lg:h-16" src="~/assets/img/javascript.svg" alt="JavascriptLogo" />
+            <img
+              class="w-10 h-10 m-3 lg:w-16 lg:h-16"
+              src="~/assets/img/tailwindcss.svg"
+              alt="TailwindCSS Logo"
+            />
+            <img
+              class="w-10 h-10 m-3 lg:w-16 lg:h-16"
+              src="~/assets/img/javascript.svg"
+              alt="JavascriptLogo"
+            />
             <img class="w-10 h-10 m-3 lg:w-16 lg:h-16" src="~/assets/img/vue.svg" alt="Vue Logo" />
             <img class="w-10 h-10 m-3 lg:w-16 lg:h-16" src="~/assets/img/nuxt.svg" alt="Nuxt Logo" />
             <img class="w-10 h-10 m-3 lg:w-16 lg:h-16" src="~/assets/img/node.svg" alt="Node Logo" />
-            <img class="w-10 h-10 m-3 lg:w-16 lg:h-16" src="~/assets/img/express.svg" alt="Express Logo" />
-            <img class="w-10 h-10 m-3 lg:w-16 lg:h-16" src="~/assets/img/mongodb.svg" alt="MongoDB Logo" />
-            <img class="w-10 h-10 m-3 lg:w-16 lg:h-16" src="~/assets/img/mysql.svg" alt="MySQL Logo" />
-            <img class="w-10 h-10 m-3 lg:w-16 lg:h-16" src="~/assets/img/github_dark.svg" alt="Github Logo" />
-            <img class="w-10 h-10 m-3 lg:w-16 lg:h-16" src="~/assets/img/vscode.svg" alt="VS Code Logo" />
+            <img
+              class="w-10 h-10 m-3 lg:w-16 lg:h-16"
+              src="~/assets/img/express.svg"
+              alt="Express Logo"
+            />
+            <img
+              class="w-10 h-10 m-3 lg:w-16 lg:h-16"
+              src="~/assets/img/mongodb.svg"
+              alt="MongoDB Logo"
+            />
+            <img
+              class="w-10 h-10 m-3 lg:w-16 lg:h-16"
+              src="~/assets/img/mysql.svg"
+              alt="MySQL Logo"
+            />
+            <img
+              class="w-10 h-10 m-3 lg:w-16 lg:h-16"
+              src="~/assets/img/github_dark.svg"
+              alt="Github Logo"
+            />
+            <img
+              class="w-10 h-10 m-3 lg:w-16 lg:h-16"
+              src="~/assets/img/vscode.svg"
+              alt="VS Code Logo"
+            />
           </div>
         </div>
       </div>

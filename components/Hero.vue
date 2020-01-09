@@ -1,6 +1,7 @@
 <template>
   <section
     class="hero w-full h-screen flex bg-black"
+    id="hero"
     :style="{'background': `url(${heroBg}) center/cover no-repeat`}"
   >
     <div class="m-auto text-white text-center">
@@ -12,8 +13,8 @@
         class="text-lg font-semibold sm:text-xl lg:text-2xl xl:text-3xl"
       >I'm a front end web developer.</h1>
       <a
-        class="inline-block border-white border-2 mt-5 py-2 px-5 hover:border-main-blue hover:text-main-blue focus:border-main-blue focus:text-main-blue lg:py-3 lg:px-6 lg:text-lg"
-        href="#"
+        class="inline-block border-white border-2 mt-5 py-2 px-5 hover:border-main-blue hover:text-main-blue focus:border-main-blue focus:text-main-blue transition-colors transition-500 lg:py-3 lg:px-6 lg:text-lg"
+        href="#projects"
       >View my work</a>
     </div>
   </section>

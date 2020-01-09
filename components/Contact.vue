@@ -1,5 +1,5 @@
 <template>
-  <section class="contact bg-main-dark">
+  <section class="contact bg-main-dark" id="contact">
     <div class="py-20">
       <h1 class="relative text-center text-white text-3xl font-semibold">CONTACT</h1>
       <p class="text-main-blue text-center text-sm mt-5">Have a question or want to work together?</p>
@@ -26,7 +26,7 @@
             required
           ></textarea>
           <button
-            class="text-white block ml-auto text-xs mt-2 px-2 py-1 uppercase font-semibold border-white border-2 hover:border-main-blue hover:bg-main-blue focus:border-main-blue focus:bg-main-blue"
+            class="text-white block ml-auto text-xs mt-2 px-2 py-1 uppercase font-semibold border-white border-2 hover:border-main-blue hover:bg-main-blue focus:border-main-blue focus:bg-main-blue transition-colors transition-500"
             type="submit"
           >Submit</button>
         </div>

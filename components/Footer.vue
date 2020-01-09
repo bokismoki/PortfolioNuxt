@@ -1,6 +1,6 @@
 <template>
   <footer class="footer relative py-10 bg-main-darker">
-    <a href="#">
+    <a href="#hero">
       <div class="absolute bg-main-pink w-12 h-12" style="left: calc(50% - 1rem); top: -1.5rem;">
         <img
           class="absolute"
@@ -18,7 +18,7 @@
     </a>
     <div class="flex justify-center items-center pt-20">
       <a
-        class="mx-3 bg-gray-800 hover:bg-main-blue focus:bg-main-blue"
+        class="mx-3 bg-gray-800 hover:bg-main-blue focus:bg-main-blue transition-colors transition-500"
         href="https://github.com/bokismoki"
         target="_blank"
       >
@@ -27,7 +27,7 @@
         </div>
       </a>
       <a
-        class="mx-3 bg-gray-800 hover:bg-main-blue focus:bg-main-blue"
+        class="mx-3 bg-gray-800 hover:bg-main-blue focus:bg-main-blue transition-colors transition-500"
         href="https://twitter.com/BorisBosnjak6"
         target="_blank"
       >
@@ -36,7 +36,7 @@
         </div>
       </a>
       <a
-        class="mx-3 bg-gray-800 hover:bg-main-blue focus:bg-main-blue"
+        class="mx-3 bg-gray-800 hover:bg-main-blue focus:bg-main-blue transition-colors transition-500"
         href="https://codepen.io/bokismoki99/#"
         target="_blank"
       >
