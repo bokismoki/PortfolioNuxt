@@ -1,0 +1,62 @@
+<template>
+  <footer class="footer relative py-10 bg-main-darker">
+    <a href="#">
+      <div class="absolute bg-main-pink w-12 h-12" style="left: calc(50% - 1rem); top: -1.5rem;">
+        <img
+          class="absolute"
+          style="bottom: 5px;"
+          src="~/assets/img/chevron_up.svg"
+          alt="Chevron Up"
+        />
+        <img
+          class="absolute"
+          style="bottom: -5px;"
+          src="~/assets/img/chevron_up.svg"
+          alt="Chevron Up"
+        />
+      </div>
+    </a>
+    <div class="flex justify-center items-center pt-20">
+      <a
+        class="mx-3 bg-gray-800 hover:bg-main-blue focus:bg-main-blue"
+        href="https://github.com/bokismoki"
+        target="_blank"
+      >
+        <div class="w-10 h-10 flex lg:h-12 lg:w-12">
+          <img class="p-2" src="~/assets/img/github.svg" alt="Github Logo" />
+        </div>
+      </a>
+      <a
+        class="mx-3 bg-gray-800 hover:bg-main-blue focus:bg-main-blue"
+        href="https://twitter.com/BorisBosnjak6"
+        target="_blank"
+      >
+        <div class="w-10 h-10 flex lg:h-12 lg:w-12">
+          <img class="p-2" src="~/assets/img/twitter.svg" alt="Twitter Logo" />
+        </div>
+      </a>
+      <a
+        class="mx-3 bg-gray-800 hover:bg-main-blue focus:bg-main-blue"
+        href="https://codepen.io/bokismoki99/#"
+        target="_blank"
+      >
+        <div class="w-10 h-10 flex lg:h-12 lg:w-12">
+          <img class="p-2" src="~/assets/img/codepen.svg" alt="Codepen Logo" />
+        </div>
+      </a>
+    </div>
+    <div class="text-center mt-5">
+      <span class="uppercase text-white text-xs tracking-wider opacity-50">Boris Bošnjak</span>
+      <span class="text-main-pink text-sm">&copy; 2019</span>
+    </div>
+  </footer>
+</template>
+
+<script>
+export default {
+  name: 'Footer'
+}
+</script>
+
+<style scoped>
+</style>

@@ -6,6 +6,7 @@
     <hr class="border-2 border-white" />
     <About />
     <Contact />
+    <Footer />
   </div>
 </template>
 
@@ -16,7 +17,8 @@ export default {
     Navbar: () => import('~/components/Navbar'),
     Projects: () => import('~/components/Projects'),
     About: () => import('~/components/About'),
-    Contact: () => import('~/components/Contact')
+    Contact: () => import('~/components/Contact'),
+    Footer: () => import('~/components/Footer')
   }
 }
 </script>
