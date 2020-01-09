@@ -12,6 +12,7 @@ html {
 }
 body {
   font-family: 'Raleway', sans-serif;
+  background-color: #e7e7e7;
 }
 
 *,

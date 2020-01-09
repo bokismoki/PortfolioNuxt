@@ -13,6 +13,9 @@ module.exports = {
         'main-dark': '#252934',
         'main-darker': '#1b242f',
         'main-darkest': '#1a242c'
+      },
+      height: {
+        '28': '7rem'
       }
     }
   },

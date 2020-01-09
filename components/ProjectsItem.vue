@@ -20,7 +20,7 @@
         />
       </div>
       <a class="absolute right-0 bottom-0 mb-3 mr-5" :href="project.githubURL" target="_blank">
-        <img class="w-8 h-8" :src="github" alt="Github Logo" />
+        <img class="w-8 h-8" src="~/assets/img/github.svg" alt="Github Logo" />
       </a>
     </div>
   </div>
@@ -29,12 +29,7 @@
 <script>
 export default {
   name: 'ProjectItem',
-  props: ['project'],
-  data() {
-    return {
-      github: require('~/assets/img/github.svg')
-    }
-  }
+  props: ['project']
 }
 </script>
 

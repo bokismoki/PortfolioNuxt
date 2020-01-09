@@ -5,6 +5,7 @@
       <div class="mt-20 lg:flex lg:flex-wrap xl:w-5/6 xl:mx-auto">
         <div
           class="mb-10 w-5/6 max-w-md mx-auto bg-black rounded-lg overflow-hidden"
+          style="box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)"
           v-for="project in projects"
           :key="project._id"
         >
@@ -28,7 +29,7 @@ export default {
           _id: 0,
           name: 'Skullcandy',
           description:
-            "Recreated Skullcandy's pages, User & Cart backend, Stripe payment service.",
+            "Recreated Skullcandy's pages, backend for User & Cart, Stripe payment service.",
           technologies: [
             require('~/assets/img/nuxt.svg'),
             require('~/assets/img/tailwindcss.svg'),
@@ -43,7 +44,7 @@ export default {
           _id: 1,
           name: 'Skullcandy',
           description:
-            "Recreated Skullcandy's pages, User & Cart backend, Stripe payment service.",
+            "Recreated Skullcandy's pages, backend for User & Cart, Stripe payment service.",
           technologies: [
             require('~/assets/img/nuxt.svg'),
             require('~/assets/img/tailwindcss.svg'),
@@ -58,7 +59,7 @@ export default {
           _id: 2,
           name: 'Skullcandy',
           description:
-            "Recreated Skullcandy's pages, User & Cart backend, Stripe payment service.",
+            "Recreated Skullcandy's pages, backend for User & Cart, Stripe payment service.",
           technologies: [
             require('~/assets/img/nuxt.svg'),
             require('~/assets/img/tailwindcss.svg'),
@@ -73,7 +74,7 @@ export default {
           _id: 3,
           name: 'Skullcandy',
           description:
-            "Recreated Skullcandy's pages, User & Cart backend, Stripe payment service.",
+            "Recreated Skullcandy's pages, backend for User & Cart, Stripe payment service.",
           technologies: [
             require('~/assets/img/nuxt.svg'),
             require('~/assets/img/tailwindcss.svg'),

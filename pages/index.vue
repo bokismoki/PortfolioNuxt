@@ -3,6 +3,8 @@
     <Hero />
     <Navbar />
     <Projects />
+    <hr class="border-2 border-white" />
+    <About />
   </div>
 </template>
 
@@ -11,7 +13,8 @@ export default {
   components: {
     Hero: () => import('~/components/Hero'),
     Navbar: () => import('~/components/Navbar'),
-    Projects: () => import('~/components/Projects')
+    Projects: () => import('~/components/Projects'),
+    About: () => import('~/components/About')
   }
 }
 </script>
