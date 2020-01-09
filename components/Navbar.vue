@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar bg-main-darker py-3 border-main-blue border-b-4">
+  <nav class="navbar bg-main-darker py-3 border-main-blue border-b-4 sticky top-0 z-50">
     <div class="w-5/6 mx-auto flex justify-end sm:justify-start">
       <ul class="mt-10 w-full sm:mt-0 sm:flex sm:items-center" :class="{'hidden': !isMenuOpen}">
         <li class="mb-3 sm:mb-0">
