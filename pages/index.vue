@@ -5,6 +5,7 @@
     <Projects />
     <hr class="border-2 border-white" />
     <About />
+    <Contact />
   </div>
 </template>
 
@@ -14,7 +15,8 @@ export default {
     Hero: () => import('~/components/Hero'),
     Navbar: () => import('~/components/Navbar'),
     Projects: () => import('~/components/Projects'),
-    About: () => import('~/components/About')
+    About: () => import('~/components/About'),
+    Contact: () => import('~/components/Contact')
   }
 }
 </script>
