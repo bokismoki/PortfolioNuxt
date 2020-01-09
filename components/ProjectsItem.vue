@@ -1,6 +1,6 @@
 <template>
   <div class="project_item">
-    <a :href="project.liveURL" target="_blank" class="block w-full h-64 relative">
+    <a :href="project.liveURL" target="_blank" rel="noopener" class="block w-full h-64 relative">
       <div
         class="absolute w-full h-full"
         :style="{'background': `url(${project.background}) center/cover no-repeat`}"
@@ -22,6 +22,7 @@
         class="absolute github w-8 h-8 right-0 bottom-0 mb-3 mr-5 transition-all transition-500"
         :href="project.githubURL"
         target="_blank"
+        rel="noopener"
       >
         <img src="~/assets/img/github.svg" alt="Github Logo" />
       </a>

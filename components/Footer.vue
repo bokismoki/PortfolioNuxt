@@ -21,6 +21,7 @@
         class="mx-3 bg-gray-800 hover:bg-main-blue focus:bg-main-blue transition-colors transition-500"
         href="https://github.com/bokismoki"
         target="_blank"
+        rel="noopener"
       >
         <div class="w-10 h-10 flex lg:h-12 lg:w-12">
           <img class="p-2" src="~/assets/img/github.svg" alt="Github Logo" />
@@ -30,6 +31,7 @@
         class="mx-3 bg-gray-800 hover:bg-main-blue focus:bg-main-blue transition-colors transition-500"
         href="https://twitter.com/BorisBosnjak6"
         target="_blank"
+        rel="noopener"
       >
         <div class="w-10 h-10 flex lg:h-12 lg:w-12">
           <img class="p-2" src="~/assets/img/twitter.svg" alt="Twitter Logo" />
@@ -39,6 +41,7 @@
         class="mx-3 bg-gray-800 hover:bg-main-blue focus:bg-main-blue transition-colors transition-500"
         href="https://codepen.io/bokismoki99/#"
         target="_blank"
+        rel="noopener"
       >
         <div class="w-10 h-10 flex lg:h-12 lg:w-12">
           <img class="p-2" src="~/assets/img/codepen.svg" alt="Codepen Logo" />
