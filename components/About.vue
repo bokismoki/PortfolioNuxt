@@ -64,7 +64,7 @@
           >I'm a 20 year-old Web Developer from Serbia. I have serious passion for creating web sites using the modern technologies available to us today.</p>
           <a
             href="#contact"
-            class="text-main-pink cursor-pointer"
+            class="text-main-pink cursor-pointer hover:underline focus:underline"
           >Contact me if you want to work together.</a>
         </div>
         <div class="mt-10">

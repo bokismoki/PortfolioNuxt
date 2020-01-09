@@ -5,24 +5,30 @@
       <p class="text-main-blue text-center text-sm mt-5">Have a question or want to work together?</p>
       <form class="mt-5" action="https://formspree.io/borisbosnjak084@gmail.com" method="POST">
         <div class="max-w-lg mx-auto px-5">
+          <label class="text-white opacity-75 block my-1 cursor-pointer" for="name">Name:</label>
           <input
             class="block w-full px-2 py-1 text-white bg-main-darkest text-sm"
             type="text"
             name="name"
             placeholder="Name"
+            id="name"
             required
           />
+          <label class="text-white opacity-75 block my-1 cursor-pointer" for="email">Email:</label>
           <input
             class="block w-full my-1 px-2 py-1 text-white bg-main-darkest text-sm"
             type="email"
             name="email"
             placeholder="Email"
+            id="email"
             required
           />
+          <label class="text-white opacity-75 block my-1 cursor-pointer" for="message">Message:</label>
           <textarea
             class="w-full px-2 py-1 text-white bg-main-darkest text-sm"
             name="message"
-            placeholder="Your Message"
+            placeholder="Your message"
+            id="message"
             required
           ></textarea>
           <button
@@ -53,10 +59,6 @@ export default {
   @apply h-1;
   content: '';
   left: calc(50% - 45px);
-}
-input::placeholder,
-textarea::placeholder {
-  text-transform: uppercase;
 }
 textarea {
   min-height: 150px !important;
