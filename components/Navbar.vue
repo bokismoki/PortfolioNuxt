@@ -55,8 +55,9 @@ export default {
   @apply relative;
   @apply w-8;
   @apply my-1;
+  @apply transition-all;
+  @apply transition-500;
   height: 0.4rem;
-  transition: all 500ms;
 }
 .hamburger_menu .line:first-of-type {
   @apply top-0;

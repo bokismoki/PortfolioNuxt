@@ -1,8 +1,13 @@
 <template>
   <div class="project_item">
-    <a :href="project.liveURL" target="_blank" rel="noopener" class="block w-full h-64 relative">
+    <a
+      :href="project.liveURL"
+      target="_blank"
+      rel="noopener"
+      class="bg_image block w-full h-64 relative"
+    >
       <div
-        class="absolute w-full h-full"
+        class="absolute w-full h-full transitiong-bg transition-500"
         :style="{'background': `url(${project.background}) center/cover no-repeat`}"
       ></div>
     </a>
@@ -38,12 +43,13 @@ export default {
 </script>
 
 <style scoped>
-.github:hover {
-  @apply w-10;
-  @apply h-10;
-}
+.github:hover,
 .github:focus {
   @apply w-10;
   @apply h-10;
+}
+
+.bg_image:focus > div {
+  background-position: 10% !important;
 }
 </style>
