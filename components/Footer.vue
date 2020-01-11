@@ -50,14 +50,19 @@
     </div>
     <div class="text-center mt-5">
       <span class="uppercase text-white text-xs tracking-wider opacity-50">Boris Bošnjak</span>
-      <span class="text-main-pink text-sm">&copy; 2019</span>
+      <span class="text-main-pink text-sm">&copy; {{year}}</span>
     </div>
   </footer>
 </template>
 
 <script>
 export default {
-  name: 'Footer'
+  name: 'Footer',
+  computed: {
+    year() {
+      return new Date().getFullYear()
+    }
+  }
 }
 </script>
 
