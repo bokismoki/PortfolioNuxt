@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "nuxt": "^2.0.0",
-    "tailwindcss-transitions": "^2.1.0"
+    "tailwindcss-transitions": "^2.1.0",
+    "vue-typer": "^1.2.0"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^1.0.0",
