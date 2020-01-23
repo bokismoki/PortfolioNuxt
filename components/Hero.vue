@@ -18,7 +18,6 @@
               :pre-erase-delay="3000"
               erase-style="backspace"
               :erase-delay="100"
-              :shuffle="true"
             ></vue-typer>
           </span>
           <span class="sm:hidden">A WEB DEVELOPER</span>
