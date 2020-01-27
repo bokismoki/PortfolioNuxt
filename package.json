@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "My portfolio web site built in Nuxt.js",
+  "description": "Boris Bošnjak web portfolio made with Nuxt.js",
   "author": "bokismoki",
   "private": true,
   "scripts": {

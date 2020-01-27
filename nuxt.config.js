@@ -21,7 +21,13 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
+      { hid: 'og:title', name: 'og:title', content: 'Bokismoki | Web Developer - Portfolio' },
+      { hid: 'og:locale', name: 'og:locale', content: 'en_EU' },
+      { hid: 'og:url', name: 'og:url', content: process.env.BASE_URL || 'http://localhost:3000' },
+      { hid: 'og:type', name: 'og:type', content: 'website' },
+      { hid: 'og:image', name: 'og:image', content: 'https://images.pexels.com/photos/220357/pexels-photo-220357.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940' },
+      { hid: 'og:description', name: 'og:description', content: 'Boris Bošnjak web portfolio made with Nuxt.js' },
     ],
     link: [
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Raleway:400,600,900&display=swap' }
