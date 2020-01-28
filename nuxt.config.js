@@ -8,7 +8,7 @@ class TailwindExtractor {
   }
 }
 
-export default {
+module.exports = {
   mode: 'universal',
   /*
   ** Headers of the page
@@ -59,7 +59,8 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    '~modules/import-tailwind-config'
+    '~modules/import-tailwind-config',
+    '@nuxtjs/axios'
   ],
   /*
   ** Build configuration
