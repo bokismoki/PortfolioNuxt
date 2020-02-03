@@ -25,6 +25,23 @@ export default {
   },
   methods: {
     scrollEvent() {
+      const projectItems = document.querySelectorAll('.item')
+
+      function checkItem(projectItems) {
+        projectItems.forEach((item, index) => {
+          if (item.isIntersecting) {
+            item.target.style.transform = 'scale(1)'
+          }
+        })
+      }
+
+      const observer = new IntersectionObserver(checkItem, { threshold: 0.95 })
+
+      projectItems.forEach(item => {
+        observer.observe(item)
+      })
+
+      // --------
       const heroSection = document.querySelector('.hero'),
         projectsSection = document.querySelector('.projects'),
         aboutSection = document.querySelector('.about'),
@@ -55,6 +72,9 @@ export default {
   },
   mounted() {
     document.addEventListener('scroll', this.scrollEvent)
+  },
+  beforeDestroy() {
+    document.removeEventListener('scroll', this.scrollEvent)
   }
 }
 </script>

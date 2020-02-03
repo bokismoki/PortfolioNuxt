@@ -4,12 +4,12 @@
       <h1 class="relative text-center text-3xl font-semibold opacity-75">PROJECTS</h1>
       <div class="mt-20 lg:flex lg:flex-wrap xl:w-5/6 xl:mx-auto">
         <div
-          class="mb-10 w-5/6 max-w-md mx-auto bg-black rounded-lg overflow-hidden"
+          class="item mb-10 w-5/6 max-w-md mx-auto bg-black rounded-lg overflow-hidden"
           style="box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)"
           v-for="project in projects"
           :key="project._id"
         >
-          <ProjectsItem :project="project" />
+          <ProjectItem :project="project" />
         </div>
       </div>
     </div>
@@ -20,7 +20,7 @@
 export default {
   name: 'Projects',
   components: {
-    ProjectsItem: () => import('~/components/ProjectsItem')
+    ProjectItem: () => import('~/components/ProjectItem')
   },
   data() {
     return {
@@ -140,6 +140,11 @@ export default {
 </script>
 
 <style scoped>
+.item {
+  transform: scale(0.4);
+  transition: transform 750ms;
+}
+
 .projects > div > h1::after {
   @apply absolute;
   @apply bg-black;
