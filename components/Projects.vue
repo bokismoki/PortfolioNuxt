@@ -29,7 +29,7 @@ export default {
           _id: 0,
           name: 'Skullcandy',
           description:
-            "Recreated Skullcandy's pages, backend for User & Cart, Stripe payment service.",
+            "Recreated a few of Skullcandy's pages, backend CRUD for User & Cart, explore the top quality headphones.",
           technologies: [
             {
               src: require('~/assets/img/nuxt.svg'),
@@ -54,9 +54,9 @@ export default {
         },
         {
           _id: 1,
-          name: 'Skullcandy',
+          name: 'Social App',
           description:
-            "Recreated Skullcandy's pages, backend for User & Cart, Stripe payment service.",
+            "Facebook OAuth login, backend CRUD for posts and comments, track online users with Socket.io, like/dislike, follow/unfollow.",
           technologies: [
             {
               src: require('~/assets/img/nuxt.svg'),
@@ -71,13 +71,13 @@ export default {
               alt: 'Node Logo'
             },
             {
-              src: require('~/assets/img/mongodb.svg'),
-              alt: 'MongoDB Logo'
+              src: require('~/assets/img/mysql.svg'),
+              alt: 'MySQL Logo'
             }
           ],
-          background: require('~/assets/img/skullcandy_bg.jpg'),
-          liveURL: 'https://skullcandy.herokuapp.com/',
-          githubURL: 'https://github.com/bokismoki/skullcandy'
+          background: require('~/assets/img/social_app_bg.png'),
+          liveURL: 'https://social-app-social.herokuapp.com/',
+          githubURL: 'https://github.com/bokismoki/SocialApp'
         },
         {
           _id: 2,

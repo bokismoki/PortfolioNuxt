@@ -11,10 +11,15 @@
         :style="{'background': `url(${project.background}) center/cover no-repeat`}"
       ></div>
     </a>
-    <div class="relative text-white bg-main-darker px-5 py-3">
-      <h1 class="uppercase font-semibold tracking-wide">{{project.name}}</h1>
-      <p class="text-xs opacity-75 w-5/6">{{project.description}}</p>
-      <div class="flex items-center mt-5">
+    <div
+      class="relative text-white bg-main-darker px-5 py-3 flex flex-col"
+      style="min-height: 150px;"
+    >
+      <div class="mb-5 ">
+        <h1 class="uppercase font-semibold tracking-wide">{{project.name}}</h1>
+        <p class="text-xs opacity-75 w-5/6">{{project.description}}</p>
+      </div>
+      <div class="flex items-center mt-auto">
         <img
           class="w-6 h-6 mr-3"
           v-for="(technologie, index) in project.technologies"
