@@ -24,9 +24,15 @@
         </span>.
       </h1>
       <a
-        class="inline-block border-white border-2 mt-5 py-2 px-5 hover:border-main-blue hover:text-main-blue focus:border-main-blue focus:text-main-blue transition-colors transition-500 lg:py-3 lg:px-6 lg:text-lg"
+        class="inline-block border-white border-2 mt-5 py-2 px-5 hover:text-main-blue focus:text-main-blue transition-colors transition-500 lg:py-3 lg:px-6 lg:text-lg relative"
         href="#projects"
-      >View my work</a>
+      >
+        View my work
+        <span class="l absolute"></span>
+        <span class="t absolute"></span>
+        <span class="r absolute"></span>
+        <span class="b absolute"></span>
+      </a>
     </div>
   </section>
 </template>
@@ -52,5 +58,74 @@ export default {
 .vue-typer .custom.char.selected {
   @apply text-main-pink;
   @apply bg-transparent;
+}
+.l,
+.r {
+  width: 2px;
+  height: calc(100% + 4px);
+  top: -2px;
+}
+.l {
+  left: -2px;
+}
+.r {
+  right: -2px;
+}
+.t,
+.b {
+  width: calc(100% + 4px);
+  height: 2px;
+  left: -2px;
+}
+.t {
+  top: -2px;
+}
+.b {
+  bottom: -2px;
+}
+.l::before,
+.t::before,
+.r::before,
+.b::before {
+  content: '';
+  background-color: aqua;
+  position: absolute;
+  transition: height 500ms, width 500ms;
+}
+.l::before,
+.r::before {
+  width: 100%;
+  height: 0%;
+  left: 0;
+}
+.l::before {
+  top: 0;
+}
+.r::before {
+  bottom: 0;
+}
+a:hover .l::before,
+a:hover .r::before,
+a:focus .l::before,
+a:focus .r::before {
+  height: 100%;
+}
+.t::before,
+.b::before {
+  height: 100%;
+  width: 0%;
+  top: 0;
+}
+.t::before {
+  right: 0;
+}
+.b::before {
+  left: 0;
+}
+a:hover .t::before,
+a:hover .b::before,
+a:focus .t::before,
+a:focus .b::before {
+  width: 100%;
 }
 </style>
