@@ -88,44 +88,45 @@ export default {
 .r::before,
 .b::before {
   content: '';
-  background-color: aqua;
-  position: absolute;
-  transition: height 500ms, width 500ms;
+  @apply bg-main-blue;
+  @apply absolute;
+  @apply transition-all;
+  @apply transition-500;
 }
 .l::before,
 .r::before {
-  width: 100%;
-  height: 0%;
-  left: 0;
+  @apply w-full;
+  @apply h-0;
+  @apply left-0;
 }
 .l::before {
-  top: 0;
+  @apply top-0;
 }
 .r::before {
-  bottom: 0;
+  @apply bottom-0;
 }
 a:hover .l::before,
 a:hover .r::before,
 a:focus .l::before,
 a:focus .r::before {
-  height: 100%;
+  @apply h-full;
 }
 .t::before,
 .b::before {
-  height: 100%;
-  width: 0%;
-  top: 0;
+  @apply h-full;
+  @apply w-0;
+  @apply top-0;
 }
 .t::before {
-  right: 0;
+  @apply right-0;
 }
 .b::before {
-  left: 0;
+  @apply left-0;
 }
 a:hover .t::before,
 a:hover .b::before,
 a:focus .t::before,
 a:focus .b::before {
-  width: 100%;
+  @apply w-full;
 }
 </style>
