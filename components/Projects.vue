@@ -56,7 +56,7 @@ export default {
           _id: 1,
           name: 'Social App',
           description:
-            "Facebook OAuth login, backend CRUD for posts and comments, track online users with Socket.io, like/dislike, follow/unfollow.",
+            "Facebook/Google OAuth login, backend CRUD for posts and comments, track online users with Socket.io, like/dislike, follow/unfollow, in-app notifications.",
           technologies: [
             {
               src: require('~/assets/img/nuxt.svg'),
@@ -73,6 +73,10 @@ export default {
             {
               src: require('~/assets/img/mysql.svg'),
               alt: 'MySQL Logo'
+            },
+            {
+              src: require('~/assets/img/socket-io.svg'),
+              alt: 'Socket.io Logo'
             }
           ],
           background: require('~/assets/img/social_app_bg.png'),

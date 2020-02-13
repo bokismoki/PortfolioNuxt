@@ -112,6 +112,11 @@
             />
             <img
               class="w-10 h-10 m-3 lg:w-16 lg:h-16"
+              src="~/assets/img/socket-io.svg"
+              alt="Socket.io Logo"
+            />
+            <img
+              class="w-10 h-10 m-3 lg:w-16 lg:h-16"
               src="~/assets/img/vscode.svg"
               alt="VS Code Logo"
             />

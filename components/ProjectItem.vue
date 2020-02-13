@@ -17,7 +17,7 @@
     >
       <div class="mb-5 ">
         <h1 class="uppercase font-semibold tracking-wide">{{project.name}}</h1>
-        <p class="text-xs opacity-75 w-5/6">{{project.description}}</p>
+        <p class="text-xs opacity-75">{{project.description}}</p>
       </div>
       <div class="flex items-center mt-auto">
         <img

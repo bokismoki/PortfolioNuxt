@@ -48,8 +48,10 @@ export default {
 </script>
 
 <style scoped>
-.contact {
-  clip-path: polygon(50% 10%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
+@media (min-width: 640px) {
+  .contact {
+    clip-path: polygon(50% 7%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
+  }
 }
 .contact > div > h1::after {
   @apply absolute;
