@@ -62,7 +62,7 @@ export default {
       if (this.name.trim() && this.email.trim() && this.message.trim()) {
         this.$axios
           .post(
-            'http://localhost:3000/email',
+            'https://portfolionuxt.herokuapp.com/email',
             {
               name: this.name.trim(),
               email: this.email.trim(),
