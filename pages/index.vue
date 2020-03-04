@@ -5,8 +5,11 @@
     <Projects />
     <hr class="border-2 border-white" />
     <About />
-    <Contact />
+    <Contact @emailResponse="setEmailResponse" />
     <Footer />
+    <div v-if="emailResponse" class="emailPopup fixed z-50">
+      <EmailPopup :response="emailResponse" />
+    </div>
   </div>
 </template>
 
@@ -18,12 +21,21 @@ export default {
     Projects: () => import('~/components/Projects'),
     About: () => import('~/components/About'),
     Contact: () => import('~/components/Contact'),
-    Footer: () => import('~/components/Footer')
+    Footer: () => import('~/components/Footer'),
+    EmailPopup: () => import('~/components/EmailPopup')
   },
   data() {
-    return {}
+    return {
+      emailResponse: null
+    }
   },
   methods: {
+    setEmailResponse(response) {
+      this.emailResponse = response
+      setTimeout(() => {
+        this.emailResponse = null
+      }, 3000)
+    },
     scrollEvent() {
       const projectItems = document.querySelectorAll('.item')
 
@@ -85,4 +97,9 @@ export default {
   @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
+.emailPopup {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 </style>

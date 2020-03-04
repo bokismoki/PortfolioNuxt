@@ -56,7 +56,7 @@ export default {
           _id: 1,
           name: 'Social App',
           description:
-            "Facebook/Google OAuth login, backend CRUD for posts and comments, track online users with Socket.io, like/dislike, follow/unfollow, in-app notifications.",
+            "Facebook/Google OAuth login, backend CRUD for posts and comments, chat and track online users with Socket.io, like/dislike, follow/unfollow, in-app notifications.",
           technologies: [
             {
               src: require('~/assets/img/nuxt.svg'),
