@@ -26,7 +26,7 @@ module.exports = {
       { hid: 'og:locale', name: 'og:locale', content: 'en_EU' },
       { hid: 'og:url', name: 'og:url', content: process.env.BASE_URL || 'http://localhost:3000' },
       { hid: 'og:type', name: 'og:type', content: 'website' },
-      { hid: 'og:image', name: 'og:image', content: 'https://images.pexels.com/photos/220357/pexels-photo-220357.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940' },
+      { hid: 'og:image', name: 'og:image', content: 'https://images.pexels.com/photos/220357/pexels-photo-220357.jpeg' },
       { hid: 'og:description', name: 'og:description', content: 'Portfolio website made with Nuxt.js and TailwindCSS. Contains my skills, contact information and my projects.' },
     ],
     link: [
