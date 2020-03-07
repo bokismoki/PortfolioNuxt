@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "Boris Bošnjak web portfolio made with Nuxt.js",
+  "description": "Portfolio website made with Nuxt.js and TailwindCSS. Contains my skills, contact information and my projects.",
   "author": "bokismoki",
   "private": true,
   "scripts": {
