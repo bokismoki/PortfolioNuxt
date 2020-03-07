@@ -27,7 +27,7 @@ module.exports = {
       { hid: 'og:url', name: 'og:url', content: process.env.BASE_URL || 'http://localhost:3000' },
       { hid: 'og:type', name: 'og:type', content: 'website' },
       { hid: 'og:image', name: 'og:image', content: 'https://images.pexels.com/photos/220357/pexels-photo-220357.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940' },
-      { hid: 'og:description', name: 'og:description', content: 'Boris Bošnjak web portfolio made with Nuxt.js' },
+      { hid: 'og:description', name: 'og:description', content: 'Portfolio website made with Nuxt.js and TailwindCSS. Contains my skills, contact information and my projects.' },
     ],
     link: [
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Raleway:400,600,900&display=swap' }
