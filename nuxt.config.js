@@ -28,6 +28,7 @@ module.exports = {
       { hid: 'og:type', name: 'og:type', content: 'website' },
       { hid: 'og:image', name: 'og:image', content: 'https://images.pexels.com/photos/220357/pexels-photo-220357.jpeg' },
       { hid: 'og:description', name: 'og:description', content: 'Portfolio website made with Nuxt.js and TailwindCSS. Contains my skills, contact information and my projects.' },
+      { name: 'image', property: 'og:image', content: 'https://images.pexels.com/photos/220357/pexels-photo-220357.jpeg' }
     ],
     link: [
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Raleway:400,600,900&display=swap' }
