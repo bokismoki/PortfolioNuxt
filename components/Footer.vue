@@ -19,6 +19,16 @@
     <div class="flex justify-center items-center pt-20">
       <a
         class="mx-3 bg-gray-800 hover:bg-main-blue focus:bg-main-blue transition-colors transition-500"
+        href="https://www.linkedin.com/in/bokismoki/"
+        target="_blank"
+        rel="noopener"
+      >
+        <div class="w-10 h-10 flex lg:h-12 lg:w-12">
+          <img class="p-2" src="~/assets/img/linkedin.svg" alt="LinkedIn Logo" />
+        </div>
+      </a>
+      <a
+        class="mx-3 bg-gray-800 hover:bg-main-blue focus:bg-main-blue transition-colors transition-500"
         href="https://github.com/bokismoki"
         target="_blank"
         rel="noopener"
