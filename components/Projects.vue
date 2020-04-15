@@ -56,7 +56,7 @@ export default {
           _id: 1,
           name: 'Social App',
           description:
-            "Facebook/Google OAuth login, backend CRUD for posts and comments, chat and track online users with Socket.io, like/dislike, follow/unfollow, in-app notifications.",
+            'Facebook/Google OAuth login, backend CRUD for posts and comments, chat and track online users with Socket.io, like/dislike, follow/unfollow, in-app notifications.',
           technologies: [
             {
               src: require('~/assets/img/nuxt.svg'),
@@ -85,9 +85,9 @@ export default {
         },
         {
           _id: 2,
-          name: 'Skullcandy',
+          name: '</Jobs>',
           description:
-            "Recreated Skullcandy's pages, backend for User & Cart, Stripe payment service.",
+            "Create job offers and connect them with your company's site, your potential emloyee will easily hear about you and start applying for the job.",
           technologies: [
             {
               src: require('~/assets/img/nuxt.svg'),
@@ -98,17 +98,17 @@ export default {
               alt: 'TailwindCSS Logo'
             },
             {
-              src: require('~/assets/img/node.svg'),
+              src: require('~/assets/img/nest.svg'),
               alt: 'Node Logo'
             },
             {
-              src: require('~/assets/img/mongodb.svg'),
+              src: require('~/assets/img/mysql.svg'),
               alt: 'MongoDB Logo'
             }
           ],
-          background: require('~/assets/img/skullcandy_bg.jpg'),
-          liveURL: 'https://skullcandy.herokuapp.com/',
-          githubURL: 'https://github.com/bokismoki/skullcandy'
+          background: require('~/assets/img/jobs_bg.png'),
+          liveURL: 'https://jobs-it.herokuapp.com/',
+          githubURL: 'https://github.com/bokismoki/Jobs'
         },
         {
           _id: 3,

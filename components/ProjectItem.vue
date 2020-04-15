@@ -15,7 +15,7 @@
       class="relative text-white bg-main-darker px-5 py-3 flex flex-col"
       style="min-height: 150px;"
     >
-      <div class="mb-5 ">
+      <div class="mb-5">
         <h1 class="uppercase font-semibold tracking-wide">{{project.name}}</h1>
         <p class="text-xs opacity-75">{{project.description}}</p>
       </div>
@@ -28,14 +28,24 @@
           :alt="technologie.alt"
         />
       </div>
-      <a
-        class="absolute github w-8 h-8 right-0 bottom-0 mb-3 mr-5 transition-all transition-500"
-        :href="project.githubURL"
-        target="_blank"
-        rel="noopener"
-      >
-        <img src="~/assets/img/github.svg" alt="Github Logo" />
-      </a>
+      <div class="absolute right-0 bottom-0 mb-3 mr-5 flex items-center">
+        <a
+          class="live w-8 h-8 transition-all transition-500"
+          :href="project.liveURL"
+          target="_blank"
+          rel="noopener"
+        >
+          <img src="~/assets/img/live.svg" alt="Full Screen" />
+        </a>
+        <a
+          class="github w-8 h-8 ml-5 transition-all transition-500"
+          :href="project.githubURL"
+          target="_blank"
+          rel="noopener"
+        >
+          <img src="~/assets/img/github.svg" alt="Github Logo" />
+        </a>
+      </div>
     </div>
   </div>
 </template>
@@ -49,7 +59,9 @@ export default {
 
 <style scoped>
 .github:hover,
-.github:focus {
+.live:hover,
+.github:focus,
+.live:focus {
   @apply w-10;
   @apply h-10;
 }

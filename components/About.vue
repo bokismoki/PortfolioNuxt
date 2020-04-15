@@ -85,7 +85,7 @@
             <img
               class="w-10 h-10 m-3 lg:w-16 lg:h-16"
               src="~/assets/img/javascript.svg"
-              alt="JavascriptLogo"
+              alt="Javascript Logo"
             />
             <img class="w-10 h-10 m-3 lg:w-16 lg:h-16" src="~/assets/img/vue.svg" alt="Vue Logo" />
             <img class="w-10 h-10 m-3 lg:w-16 lg:h-16" src="~/assets/img/nuxt.svg" alt="Nuxt Logo" />
@@ -94,6 +94,11 @@
               class="w-10 h-10 m-3 lg:w-16 lg:h-16"
               src="~/assets/img/express.svg"
               alt="Express Logo"
+            />
+            <img
+              class="w-10 h-10 m-3 lg:w-16 lg:h-16"
+              src="~/assets/img/nest.svg"
+              alt="Nest Logo"
             />
             <img
               class="w-10 h-10 m-3 lg:w-16 lg:h-16"
