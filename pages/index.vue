@@ -26,7 +26,8 @@ export default {
   },
   data() {
     return {
-      emailResponse: null
+      emailResponse: null,
+      observer: null
     }
   },
   methods: {
@@ -47,10 +48,10 @@ export default {
         })
       }
 
-      const observer = new IntersectionObserver(checkItem, { threshold: 0.95 })
+      this.observer = new IntersectionObserver(checkItem, { threshold: 0.95 })
 
       projectItems.forEach(item => {
-        observer.observe(item)
+        this.observer.observe(item)
       })
 
       // --------
