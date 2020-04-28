@@ -112,9 +112,9 @@ export default {
         },
         {
           _id: 3,
-          name: 'Skullcandy',
+          name: 'Altman Brothers',
           description:
-            "Recreated Skullcandy's pages, backend for User & Cart, Stripe payment service.",
+            "Recreated Altman Brothers' home page using Nuxtjs and TailwindCSS.",
           technologies: [
             {
               src: require('~/assets/img/nuxt.svg'),
@@ -123,19 +123,11 @@ export default {
             {
               src: require('~/assets/img/tailwindcss.svg'),
               alt: 'TailwindCSS Logo'
-            },
-            {
-              src: require('~/assets/img/node.svg'),
-              alt: 'Node Logo'
-            },
-            {
-              src: require('~/assets/img/mongodb.svg'),
-              alt: 'MongoDB Logo'
             }
           ],
-          background: require('~/assets/img/skullcandy_bg.jpg'),
-          liveURL: 'https://skullcandy.herokuapp.com/',
-          githubURL: 'https://github.com/bokismoki/skullcandy'
+          background: require('~/assets/img/altman_brothers_bg.jpg'),
+          liveURL: 'https://altman-brothers.herokuapp.com',
+          githubURL: 'https://github.com/bokismoki/AltmanBrothers'
         }
       ]
     }
