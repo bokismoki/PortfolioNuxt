@@ -21,6 +21,7 @@
     "nodemailer-mailgun-transport": "^2.0.0",
     "nuxt": "^2.0.0",
     "tailwindcss-transitions": "^2.2.0",
+    "vue-tippy": "^4.4.0",
     "vue-typer": "^1.2.0"
   },
   "devDependencies": {

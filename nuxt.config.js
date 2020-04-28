@@ -47,7 +47,8 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: 'plugins/vue-typer.js', ssr: false }
+    { src: 'plugins/vue-typer.js', ssr: false },
+    { src: 'plugins/vue-tippy.js', ssr: false }
   ],
   /*
   ** Nuxt.js dev-modules

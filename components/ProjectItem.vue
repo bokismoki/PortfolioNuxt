@@ -26,6 +26,8 @@
           :key="index"
           :src="technologie.src"
           :alt="technologie.alt"
+          :content="technologie.alt.split(' ')[0]"
+          v-tippy
         />
       </div>
       <div class="absolute right-0 bottom-0 mb-3 mr-5 flex items-center">
@@ -34,6 +36,8 @@
           :href="project.liveURL"
           target="_blank"
           rel="noopener"
+          content="Live Preview"
+          v-tippy
         >
           <img src="~/assets/img/live.svg" alt="Full Screen" />
         </a>
@@ -42,6 +46,8 @@
           :href="project.githubURL"
           target="_blank"
           rel="noopener"
+          content="Github Code"
+          v-tippy
         >
           <img src="~/assets/img/github.svg" alt="Github Logo" />
         </a>
