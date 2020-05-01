@@ -9,7 +9,9 @@
     "build": "nuxt build",
     "start": "cross-env NODE_ENV=production node server/index.js",
     "generate": "nuxt generate",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.9.5",
@@ -22,7 +24,8 @@
     "nuxt": "^2.0.0",
     "tailwindcss-transitions": "^2.2.0",
     "vue-tippy": "^4.4.0",
-    "vue-typer": "^1.2.0"
+    "vue-typer": "^1.2.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^1.0.0",
@@ -32,5 +35,6 @@
     "nodemon": "^2.0.2",
     "prettier": "^1.16.4",
     "purgecss-webpack-plugin": "^1.6.0"
-  }
+  },
+  "snyk": true
 }
