@@ -17,7 +17,7 @@
     "cross-env": "^7.0.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "nodemailer": "^6.4.4",
+    "nodemailer": "^6.6.1",
     "nodemailer-mailgun-transport": "^2.0.0",
     "nuxt": "^2.0.0",
     "tailwindcss-transitions": "^2.2.0",
